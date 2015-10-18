@@ -1,0 +1,4 @@
+#Store Name, Model Name, Warehouse Name, SOH, Avg Sales, On Order, Ranking
+Store1,ModelA,WH1,10,5,7,10
+Store1,ModelB,WH2,1,2.5,3,10
+Store2,ModelA,WH1,8,3,5,1
