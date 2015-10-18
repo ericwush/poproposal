@@ -38,11 +38,7 @@ public class OrderStatus {
     }
 
     public double getSimEoh() {
-        if (getSoh() == 0 && getOnOrder() == 0) {
-            simEoh = 0;
-        } else {
-            simEoh = getSoh() + getOnOrder() + getProposal() - getAvgSales();
-        }
+        simEoh = getSoh() + getOnOrder() + getProposal() - getAvgSales();
         return simEoh;
     }
 
