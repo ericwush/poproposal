@@ -33,6 +33,7 @@ public class OrderStatus {
     public int getOnOrder() {
         return onOrder;
     }
+
     public void setOnOrder(int onOrder) {
         this.onOrder = onOrder;
     }
